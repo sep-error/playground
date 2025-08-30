@@ -1,1 +1,1 @@
-Kim Dokja
+Park So Jun
