@@ -1,3 +1,2 @@
-- Alice | JavaScript
-- Bob | Python
+
 - <Mhike> | <Java>
