@@ -5,7 +5,7 @@ import StudentCard from './components/fullname.vue'
 <template>
   <h1>My Classmates</h1>
   <StudentCard name="Joshua" language="Java" />
-  <StudentCard name="Simon" language="Java" />
+  <StudentCard name="Jerome" language="Java" />
   <StudentCard name="Kent" language="Javascript" />
 </template>
 
