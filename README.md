@@ -93,7 +93,7 @@ Replace template:
   <h1>My Classmates</h1>
   <StudentCard name="Alice" language="JavaScript" />
   <StudentCard name="Bob" language="Python" />
-  <StudentCard name="Charlie" language="Java" />
+  <StudentCard name="JohnPaul" language="JavaScript" />
 </template>
 
 <script setup>
