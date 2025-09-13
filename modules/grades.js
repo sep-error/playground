@@ -1,0 +1,1 @@
+export const grades = [85, 90, 78];
