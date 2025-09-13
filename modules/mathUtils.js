@@ -7,9 +7,9 @@ export function multiply(a, b) {
 }
 
 export function divide(a, b) {
-  return b / a; 
+  return a / b; 
 }
 
 export function subtraction(a, b) {
-  return b - a; 
+  return a - b; 
 }

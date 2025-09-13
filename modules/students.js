@@ -1,5 +1,4 @@
 export const students = [
-  { name: "Ulrick", language: "JavaScript" },
-  { name: "John", language: "Python" },
-  { name: "Cedric", language: "Java" }
+  { name: "Balajadia", language: "JavaScript" },
+  { name: "SanAndres", language: "Python" },
 ];

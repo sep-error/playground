@@ -1,5 +1,4 @@
 export const grades = [
-  { student: "Ulrick", grade: "A" },
-  { student: "John", grade: "B+" },
-  { student: "Cedric", grade: "A-" }
+  { student: "Balajadia", grade: "A" },
+  { student: "SanAndres", grade: "B+" },
 ];

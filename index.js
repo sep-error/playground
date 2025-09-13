@@ -18,7 +18,7 @@ console.log("Subtract:", subtraction(4, 2));
 const leader = getRandomLeader();
 console.log(`Team leader is ${leader.name}, who loves ${leader.language}`);
 
-tasks.forEach(t => {
+tasks.forEach(t => { 
   console.log(`${t.student} is assigned: ${t.task}`);
 });
 
