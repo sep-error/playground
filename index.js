@@ -9,7 +9,3 @@ students.forEach(s => {
   console.log(`${s.name} loves ${s.language}`);
 });
 
-import { getRandomLeader } from './modules/team.js';
-
-const leader = getRandomLeader();
-console.log(`Team leader is ${leader.name}, who loves ${leader.language}`);
