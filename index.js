@@ -8,3 +8,12 @@ import { students } from './modules/students.js';
 students.forEach(s => {
   console.log(`${s.name} loves ${s.language}`);
 });
+
+import { students } from './students.js';
+
+export function getRandomLeader() {
+  const index = Math.floor(Math.random() * students.length);
+  return students[index];
+}
+
+import { students } from './tasks.js';
