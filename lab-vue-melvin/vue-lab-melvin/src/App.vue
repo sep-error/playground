@@ -1,14 +1,10 @@
 <template>
   <h1>My Classmates</h1>
-  <StudentCard name="Melvin" language="Java" hobby="Reading"/>
-  <StudentCard name="Reniel" language="Python" hobby="Gooning"/>
-  <StudentCard name="Sosa" language="JavaScript" hobby="Playing"/>
-  <StudentCard name="Angel" language="Python" hobby="Coding"/>
-  <StudentCard name="Mhike" language="PHP" hobby="Watching"/>
+  <StudentCard name="Ulrick" language="Java" />
 </template>
 
 <script setup>
-import StudentCard from './components/fullname.vue'
+import StudentCard from './components/StudentCard.vue'
 </script>
 
 <style scoped>
