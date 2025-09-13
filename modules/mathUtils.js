@@ -11,5 +11,5 @@ export function divide(a, b) {
 }
 
 export function subtraction(a, b) {
-  return b / a; 
+  return b - a; 
 }
