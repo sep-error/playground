@@ -1,5 +1,3 @@
-export const grades = [
-  { student: "Ulrick", grade: "A" },
-  { student: "John", grade: "B+" },
-  { student: "Cedric", grade: "A-" }
-];
+export function calculateGrade(score) {
+  return score > 80 ? "A" : "B";
+}

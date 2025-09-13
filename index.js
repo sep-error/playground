@@ -1,25 +1,20 @@
-import { students } from './modules/students.js';
 import { add, multiply } from './modules/mathUtils.js';
-import { getRandomLeader } from './modules/team.js';
-import { tasks } from './modules/tasks.js';
-import { grades } from './modules/grades.js';
-// import { divide } from './modules/mathUtils.js';
+
+console.log("Add:", add(2, 3));          // 5
+console.log("Multiply:", multiply(4, 2)); // 8
+
+import { students } from './modules/student.js'; 
 
 students.forEach(s => {
   console.log(`${s.name} loves ${s.language}`);
 });
 
-console.log("Add:", add(2, 3));           
-console.log("Multiply:", multiply(4, 2)); 
-// console.log("Multiply:", divide(4, 2)); 
+import { getRandomLeader } from './modules/team.js';
+console.log("Random Leader:", getRandomLeader().name);
 
-const leader = getRandomLeader();
-console.log(`Team leader is ${leader.name}, who loves ${leader.language}`);
+import { tasks } from './modules/tasks.js';
+console.log("Tasks:", tasks);
 
-tasks.forEach(t => {
-  console.log(`${t.student} is assigned: ${t.task}`);
-});
-
-grades.forEach(g => {
-  console.log(`${g.student} received grade: ${g.grade}`);
-});
+import { calculateGrade } from './modules/grades.js';  // Added demo
+console.log("Grade for 85:", calculateGrade(85));  // A
+console.log("Grade for 75:", calculateGrade(75));  // B
