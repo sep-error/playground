@@ -16,3 +16,14 @@ Pull request is when you want join your branch to main. Team use it so other can
 5. Purpose of git add and git commit (10 pts)
 git add put change file to ready list.
 git commit save that change in repo with message so you know what you did.
+
+
+Write the output of the following code:
+let x = 5;
+let y = "5";
+console.log(x == y);
+console.log(x === y);
+
+answer: 
+true
+false
