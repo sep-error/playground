@@ -1,5 +1,5 @@
-import { add, multiply } from './midterm-js-JohnPaulFabian/mathUtils.js';
-import { students } from './midterm-js-JohnPaulFabian/student.js';
+import { add, multiply } from './mathUtils.js';
+import { students } from './student.js';
 
 
 console.log("Add:", add(2, 3));        // 5
